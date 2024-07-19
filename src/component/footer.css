@@ -1,0 +1,250 @@
+.logo-icon-footer {
+    height: 45.6px;
+    width: 234px;
+    position: relative;
+  }
+  .logo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .copyright-travellian {
+    position: relative;
+    color: #fff;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 14px;
+  }
+  .menu {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 64px;
+  }
+  .home {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    min-width: 50px;
+  }
+  .explore {
+    position: relative;
+    display: inline-block;
+    min-width: 63px;
+  }
+  .travel {
+    position: relative;
+    display: inline-block;
+    min-width: 50px;
+  }
+  .blog {
+    position: relative;
+    display: inline-block;
+    min-width: 38px;
+  }
+  .pricing {
+    position: relative;
+    display: inline-block;
+    min-width: 59px;
+  }
+  .block1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 18px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    color: #fff;
+  }
+  .information {
+    position: relative;
+    font-weight: 500;
+  }
+  .destinations {
+    position: relative;
+    display: inline-block;
+    min-width: 77px;
+  }
+  .supports {
+    position: relative;
+    display: inline-block;
+    min-width: 77px;
+  }
+  .terms-conditions {
+    position: relative;
+  }
+  .privacy {
+    position: relative;
+    display: inline-block;
+    min-width: 62px;
+  }
+  .block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 18px;
+  }
+  .info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    color: #fff;
+  }
+  .contact-info {
+    position: relative;
+    font-weight: 500;
+  }
+  .contact-links {
+    position: relative;
+    display: inline-block;
+    min-width: 113px;
+    white-space: nowrap;
+  }
+  .infotravelliancom {
+    position: relative;
+    white-space: nowrap;
+  }
+  .new-yourk-usa {
+    position: relative;
+  }
+  .block3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 18px;
+  }
+  .info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    color: #fff;
+  }
+  .follow-us-on {
+    position: relative;
+    font-weight: 500;
+  }
+  .facebook-1-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: #fff;
+  }
+  .pinterest-1-icon {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .instagram-1-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .twitter-1-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .social-icon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .info3 {
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    color: #fff;
+  }
+  .content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .block {
+    width: 1564px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Rubik;
+  }
+  .footer {
+    width: 100%;
+    background-color: #172432;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 240px 20px 140px;
+    box-sizing: border-box;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  
+  @media screen and (max-width: 1047px) {
+    .content {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .menu {
+      font-size: 19px;
+    }
+  
+    .information {
+      font-size: 19px;
+    }
+  
+    .contact-info {
+      font-size: 19px;
+    }
+  
+    .follow-us-on {
+      font-size: 19px;
+    }
+  }

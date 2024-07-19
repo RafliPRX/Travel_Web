@@ -1,0 +1,120 @@
+.image-container {
+    height: 873px;
+    flex: 1;
+    border-radius: 26px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-width: 495px;
+    max-width: 100%;
+  }
+  .beautiful-italy {
+    margin: 0;
+  }
+  .lets-travel {
+    margin: 0;
+  }
+  .beautiful-italy-lets-container {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: 54px;
+    font-weight: 400;
+    font-family: "Playfair Display";
+  }
+  .but-i-must {
+    align-self: stretch;
+    position: relative;
+    line-height: 52px;
+  }
+  .read-more1 {
+    position: relative;
+    line-height: 52px;
+    display: inline-block;
+    min-width: 118px;
+  }
+  .read-more-child {
+    height: 14.7px;
+    width: 27px;
+    position: relative;
+  }
+  .read-more {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 597px 0px 0px;
+    gap: 20px;
+    color: #ff7757;
+  }
+  .Text-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    gap: 24px;
+    min-width: 495px;
+    max-width: 100%;
+  }
+  .content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 24px;
+    color: #172432;
+    font-family: Rubik;
+  }
+  
+  @media screen and (max-width: 950px) {
+    .image-container {
+      min-width: 100%;
+    }
+  
+    .beautiful-italy-lets-container {
+      font-size: 43px;
+    }
+  
+    .read-more {
+      padding-right: 298px;
+      box-sizing: border-box;
+    }
+  
+    .text-block {
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .content {
+      gap: 16px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .beautiful-italy-lets-container {
+      font-size: 32px;
+    }
+  
+    .but-i-must {
+      font-size: 19px;
+      line-height: 42px;
+    }
+  
+    .read-more1 {
+      font-size: 19px;
+      line-height: 42px;
+    }
+  
+    .read-more {
+      padding-right: 20px;
+      box-sizing: border-box;
+    }
+  }

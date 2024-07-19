@@ -1,0 +1,213 @@
+.logo-icon {
+    align-self: stretch;
+    height: 45.6px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .logo-wrapper {
+    width: 234px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0px 0px 9.2px;
+    box-sizing: border-box;
+  }
+  .home {
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 57px;
+  }
+  .underline {
+    align-self: stretch;
+    height: 3px;
+    position: relative;
+    border-top: 3px solid #ff7757;
+    box-sizing: border-box;
+  }
+  .home-link {
+    width: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .explore {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    min-width: 70px;
+  }
+  .travel {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    min-width: 55px;
+  }
+  .blog {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    min-width: 42px;
+  }
+  .pricing {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    min-width: 66px;
+  }
+  .nav-options {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .nav-options-wrapper {
+    width: 418px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0px 0px 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-right: auto;
+  }
+  .login {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    min-width: 52px;
+  }
+  .login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 0px 0px;
+  }
+  .sign-up {
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    font-family: Rubik;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    min-width: 71px;
+  }
+  .btn-sign-up {
+    cursor: pointer;
+    border: none;
+    padding: 20px 32px;
+    background-color: #ff7757;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .btn-sign-up:hover {
+    background-color: #cc4524;
+  }
+  .frame-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 5px;
+    gap: 36px;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: center; /* Change to center alignment */
+    justify-content: space-between;
+    padding: 32px 181px 32px 180px;
+    box-sizing: border-box;
+    line-height: normal;
+    letter-spacing: normal;
+    gap: 20px;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Rubik;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+  
+  @media screen and (max-width: 975px) {
+    .header {
+      padding-left: 90px;
+      padding-right: 90px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .nav-options {
+      position: fixed;
+      top: 7.5%;
+      left: 17%;
+      box-sizing: border-box;
+      font-size: medium;
+      gap: 5px;
+    }
+  
+    .nav-options-wrapper {
+      width: 0px;
+      margin-left: auto;
+    }
+    .frame-parent {
+      gap: 20px;
+      display: flex;
+      font-size: medium;
+      margin-left: auto;
+    }
+    .btn-sign-up {
+      flex: 1;
+      margin-top: 13px;
+      padding: 5px 20px;
+    }
+    .sign-up {
+      font-size: medium;
+    }
+    .login {
+      padding-bottom: 110px;
+      flex: 1;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .header {
+      padding-left: 45px;
+      padding-right: 45px;
+      box-sizing: border-box;
+    }
+    .btn-sign-up {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .btn-sign-up {
+      display: none;
+    }
+  
+    .header {
+      width: 1697px;
+    }
+}

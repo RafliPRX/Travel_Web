@@ -1,0 +1,175 @@
+.the-best-travel {
+    margin: 0;
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    width: 1738px;
+  }
+  .start-your-unforgettable {
+    margin: 0;
+  }
+  .journey-with-us {
+    margin: 0;
+  }
+  .start-your-unforgettable-container {
+    margin: 0;
+    width: 1738px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .slide-child {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #ff7757;
+    background-size: cover;
+    background-position: center;
+    background-image: url('image1.jpg');
+  }
+  .slide-item {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-image: url('image1.jpg');
+  }
+  .slide-inner {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-image: url('image1.jpg');
+  }
+  .ellipse-div {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-image: url('image1.jpg');
+  }
+  .slide-child1 {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-image: url('image1.jpg');
+  }
+  .slide {
+    position: absolute;
+    transition: ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    z-index: 1;
+  }
+  .slide-dots {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 0px 0px;
+    margin-left: -96px;
+  }
+  .dot-div {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .journey-intro {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 1738px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    font-size: 84px;
+    font-family: "Playfair Display";
+  }
+  .vector-icon {
+    width: 14px;
+    height: 6px;
+    position: relative;
+    object-fit: contain;
+  }
+  .vector-icon1 {
+    width: 14px;
+    height: 6px;
+    position: relative;
+  }
+  .arrow {
+    position: absolute;
+    top: 220px;
+    left: 1663px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    z-index: 1;
+  }
+  .the-best-travel-for-your-joune-parent {
+    height: 268px;
+    width: 1758px;
+    position: relative;
+    max-width: 100%;
+  }
+  .hero {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    max-width: 100%;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Rubik;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .start-your-unforgettable-container {
+      font-size: 38px;
+    }
+    .the-best-travel {
+        font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .the-best-travel {
+      font-size: 16px;
+    }
+  
+    .start-your-unforgettable-container {
+      font-size: 30px;
+    }
+  }
