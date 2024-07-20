@@ -98,10 +98,12 @@ const Destinations = () => {
       <Navigation3/>
         <section className="Content">
           {category.map((category) => (
+            <Link to={`/categorized/${category.id}`} >
             <ColBlock
               monumentOfBerlin={category.name}
               location1={category.imageUrl}
             />
+            </Link>
           ))}
         </section>
     </div>
