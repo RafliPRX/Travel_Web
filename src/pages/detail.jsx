@@ -26,26 +26,9 @@ const Details = () => {
   };
   useEffect(() => {
     getDetail();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const [detil1, setDetail_promo] = useState({});
-  const getDetail_promo = async () => {
-    try {
-        const response = await axios.get(`https://travel-journal-api-bootcamp.do.dibimbing.id/api/v1/promo/${param.id}`, {
-          headers: {
-              apiKey: '24405e01-fbc1-45a5-9f5a-be13afcd757c',
-              "content-type": "multipart/form-data"
-          }
-        });
-        setDetail_promo(response.data.data);
-        console.log(response.data.data);
-      } catch (error) {
-        console.log(error.response);
-    }
-  };
-  useEffect(() => {
-    getDetail_promo();
-  }, []);
   return (
     <div>
       <HeroSection/>  

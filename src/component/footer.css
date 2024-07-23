@@ -28,11 +28,12 @@
     min-width: 64px;
   }
   .home {
-    text-decoration: none;
     position: relative;
     color: inherit;
     display: inline-block;
     min-width: 50px;
+    color: white;
+    text-decoration-color: white;
   }
   .explore {
     position: relative;

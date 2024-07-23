@@ -99,7 +99,7 @@
     justify-content: flex-start;
     padding: 20px 0px 0px;
   }
-  .sign-up {
+  .sign_up {
     text-decoration: none;
     position: relative;
     font-size: 20px;
@@ -109,7 +109,7 @@
     display: inline-block;
     min-width: 71px;
   }
-  .btn-sign-up {
+  .btn_sign_up {
     cursor: pointer;
     border: none;
     padding: 20px 32px;

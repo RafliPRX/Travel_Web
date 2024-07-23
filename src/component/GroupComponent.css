@@ -1,0 +1,281 @@
+.frame-child {
+    width: 539px;
+    height: 741px;
+    position: relative;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.75);
+    display: none;
+    max-width: 100%;
+  }
+  .lorem,
+  .welcome-to {
+    font-family: Poppins;
+    color: #000;
+  }
+  .lorem {
+    font-weight: 600;
+    color: #779341;
+  }
+  .Sign-in,
+  .welcome-to-lorem-container {
+    position: relative;
+    text-align: left;
+    z-index: 1;
+  }
+  .welcome-to-lorem-container {
+    text-decoration: none;
+    font-size: 21px;
+  }
+  .Sign-in {
+    margin: 0;
+    font-size: 55px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #000;
+  }
+  .welcome-to-lorem-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+  }
+  .frame-item {
+    height: 55px;
+    width: 298px;
+    position: relative;
+    border-radius: 9px;
+    background-color: #e9f1ff;
+    display: none;
+  }
+  .google-icon {
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 26px;
+    z-index: 1;
+  }
+  .sign-in-with {
+    position: relative;
+    font-size: 16px;
+    font-family: Poppins;
+    color: #4285f4;
+    text-align: left;
+    z-index: 1;
+  }
+  .google-sign-in-button,
+  .rectangle-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-group {
+    cursor: pointer;
+    border: 0;
+    padding: 15px 32px 14px;
+    background-color: #e9f1ff;
+    align-self: stretch;
+    border-radius: 9px;
+    flex-direction: row;
+    gap: 21px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .rectangle-group:hover {
+    background-color: #cfd9e6;
+  }
+  .google-sign-in-button {
+    flex: 1;
+    flex-direction: column;
+    gap: 43px;
+    min-width: 194px;
+  }
+  .no-account3 {
+    margin: 0;
+    color: #8d8d8d;
+  }
+  .sign-up3 {
+    margin: 0;
+    color: #779341;
+  }
+  .no-account-container3 {
+    text-decoration: none;
+    position: relative;
+    font-size: 13px;
+    font-family: Poppins;
+    text-align: left;
+    z-index: 1;
+  }
+  .sign-up-button3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .frame-inner {
+    width: 60px;
+    height: 55px;
+    position: relative;
+    z-index: 1;
+  }
+  .frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px 0 0;
+  }
+  .group-icon {
+    height: 55px;
+    width: 60px;
+    position: relative;
+    min-height: 55px;
+    z-index: 1;
+  }
+  .frame-parent,
+  .sign-up-button-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px;
+  }
+  .sign-up-button-parent3 {
+    width: 133px;
+    flex-direction: column;
+    gap: 112px;
+    min-width: 133px;
+  }
+  .google-sign-in-button-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 8px;
+    gap: 20px;
+  }
+  .forgot-password {
+    position: relative;
+    font-size: 13px;
+    font-family: Poppins;
+    color: #4285f4;
+    text-align: left;
+    display: inline-block;
+    min-width: 108px;
+    z-index: 1;
+  }
+  .component-parent,
+  .forgot-password-button,
+  .instance-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .component-parent,
+  .instance-parent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .component-parent {
+    gap: 38px;
+  }
+  .rectangle-div2 {
+    height: 54px;
+    width: 236px;
+    position: relative;
+    box-shadow: 0 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 10px;
+    background-color: #779341;
+    display: none;
+    justify-content: center;
+  }
+  .sign-in2 {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    min-width: 54px;
+    z-index: 1;
+  }
+  .rectangle-container,
+  .rectangle-parent {
+    display: flex;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .rectangle-container {
+    cursor: pointer;
+    border: 0;
+    padding: 15px 20px 14px;
+    background-color: #779341;
+    width: 236px;
+    box-shadow: 0 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .rectangle-container:hover {
+    background-color: #5e7a29;
+  }
+  .rectangle-parent {
+    margin: 0;
+    align-self: stretch;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.75);
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 44px 44px 79px;
+    gap: 44px;
+    max-width: 100%;
+  }
+  @media screen and (max-width: 825px) {
+    .sign-in {
+      font-size: 44px;
+    }
+    .rectangle-parent {
+      padding-top: 29px;
+      padding-bottom: 51px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .sign-up-button-parent {
+      flex: 1;
+    }
+    .google-sign-in-button-parent {
+      flex-wrap: wrap;
+    }
+    .rectangle-parent {
+      gap: 22px;
+      padding-left: 22px;
+      padding-right: 22px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .welcome-to-lorem-container {
+      font-size: 17px;
+    }
+    .sign-in {
+      font-size: 33px;
+    }
+    .google-sign-in-button {
+      gap: 21px;
+    }
+    .component-parent {
+      gap: 19px;
+    }
+  }

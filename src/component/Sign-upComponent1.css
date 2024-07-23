@@ -1,0 +1,45 @@
+.user-name {
+    width: 216px;
+    top: 0;
+    display: inline-block;
+  }
+  .contact-boxes,
+  .user-name,
+  .user-name1 {
+    position: absolute;
+    margin: 0 !important;
+    right: -49px;
+  }
+  .contact-boxes {
+    border: 1px solid #adadad;
+    outline: 0;
+    background-color: #fff;
+    width: 216px;
+    height: 57px;
+    bottom: 0;
+    border-radius: 9px;
+    box-sizing: border-box;
+  }
+  .user-name1 {
+    width: 203px;
+    bottom: 16px;
+    font-size: 14px;
+    font-weight: 300;
+    color: gray;
+    display: inline-block;
+    z-index: 1;
+  }
+  .user-name-parent {
+    height: 86px;
+    width: 167px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: Poppins;
+  }

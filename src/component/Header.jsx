@@ -13,17 +13,17 @@ const Header = ({ className = "" }) => {
             <a href="/" className="home">Home</a>
             <div className="underline" />
           </div>
-          <a className="explore">Explore</a>
+          <a href="/explore" className="explore">Explore</a>
           <a className="travel">Travel</a>
           <a className="blog">Blog</a>
         </div>
       </div>
       <div className="frame-parent">
         <div className="login-wrapper">
-          <a className="login">Login</a>
+          <a href="/login" className="login">Login</a>
         </div>
-        <button className="btn-sign-up">
-          <a className="sign-up">Sign up</a>
+        <button className="btn_sign_up">
+          <a href="/Sign-up" className="sign_up">Sign up</a>
         </button>
       </div>
     </div>

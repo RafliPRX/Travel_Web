@@ -62,6 +62,7 @@ const Destinations = () => {
       setCategory(response.data.data);
       console.log(response.data.data);
     } catch {
+      // eslint-disable-next-line no-undef
       console.log(error.response);
     }
   };
@@ -73,7 +74,8 @@ const Destinations = () => {
       <Navigation1/>
       <section className="Content">
         {banner.map((baner) => (
-          <Link to={`/detail/${baner?.id}`} >
+          // eslint-disable-next-line react/jsx-key
+          <Link to={`/detail/${baner?.id}`}>
             <ColBlock
             monumentOfBerlin={baner.name}
             location1={baner.imageUrl}
@@ -84,6 +86,7 @@ const Destinations = () => {
       <Navigation2/>
         <section className="Content">
           {promos.map((promo) => (
+            // eslint-disable-next-line react/jsx-key
             <Link to={`/detail-promo/${promo.id}`} >
             <ColBlock
               code={promo.promo_code}
@@ -98,6 +101,7 @@ const Destinations = () => {
       <Navigation3/>
         <section className="Content">
           {category.map((category) => (
+            // eslint-disable-next-line react/jsx-key
             <Link to={`/categorized/${category.id}`} >
             <ColBlock
               monumentOfBerlin={category.name}

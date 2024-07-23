@@ -1,8 +1,5 @@
 import PropTypes from "prop-types";
 import "./content.css";
-import { useParams } from "react-router-dom";
-import { useState } from "react";
-import axios from "axios";
 
 const Content = ({ 
     className = "",
@@ -10,11 +7,6 @@ const Content = ({
     image,
     nama_promo,
     desc_promo,
-    image_promo,
-    syarat,
-    code_promo,
-    disc_price,
-    minim_price
  }) => {
   return (
     <section className={`content ${className}`}>
