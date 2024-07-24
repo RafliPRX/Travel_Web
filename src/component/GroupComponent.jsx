@@ -37,6 +37,10 @@ const GroupComponent = ({ className = "" }) => {
         });
         console.log(response.data.token);
         setToken(response.data.token);
+        localStorage.setItem("token", response.data.token);
+        localStorage.setItem("username", response.data.data.name);
+        localStorage.setItem("Phone", response.data.data.phoneNumber);
+        localStorage.setItem("Image", response.data.data.profilePictureUrl);
         setTimeout(() => {
             navigate("/");
         }, 1000);
@@ -77,7 +81,7 @@ const GroupComponent = ({ className = "" }) => {
         <div className="instance-parent">
         <div className={`enter-your-username-or-email-a-parent ${className}`}>
           <div className="enter-your-username">Password</div>
-          <input onChange={handleChangePassword} placeholder="Password" className="username-input-box" type="text" />
+          <input onChange={handleChangePassword} placeholder="Password" className="username-input-box" type="password" />
         </div>
           <div className="forgot-password-button">
             <div className="forgot-password">Forgot Password</div>

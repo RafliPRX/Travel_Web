@@ -1,7 +1,32 @@
 import PropTypes from "prop-types";
 import "./header.css";
+import { useEffect, useState } from "react";
+import Action from "./action";
+import Action2 from "./action2";
 
 const Header = ({ className = "" }) => {
+  // eslint-disable-next-line no-unused-vars
+  const [username, setUsername] = useState(null);
+  const [image, setImage] = useState(null);
+  const [phone, setPhone] = useState(null);
+  const [token, setToken] = useState(null);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    const storeUsername = localStorage.getItem("username");
+    const storeImage = localStorage.getItem("image");
+    const storePhone = localStorage.getItem("Phone");
+    const storeToken = localStorage.getItem("token");
+    if (storeUsername) {
+      setUsername(storeUsername);
+      setImage(storeImage);
+      setPhone(storePhone);
+      setToken(storeToken)
+      setIsLoggedIn(true)
+    }
+  })
+  console.log(localStorage);
   return (
     <div className={`header ${className}`}>
       <div className="logo-wrapper">
@@ -18,14 +43,7 @@ const Header = ({ className = "" }) => {
           <a className="blog">Blog</a>
         </div>
       </div>
-      <div className="frame-parent">
-        <div className="login-wrapper">
-          <a href="/login" className="login">Login</a>
-        </div>
-        <button className="btn_sign_up">
-          <a href="/Sign-up" className="sign_up">Sign up</a>
-        </button>
-      </div>
+      {isLoggedIn ? <Action nama={username} Phone={phone} Image={image} token={token}/> : <Action2/> }
     </div>
   );
 };
