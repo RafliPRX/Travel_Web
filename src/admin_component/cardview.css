@@ -1,0 +1,10 @@
+/* Cardview container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.card-container > * {
+    flex-basis: calc(33.33% - 25px); /* adjust the width and gap */
+    margin: 25px; /* add margin to compensate for the gap */
+}

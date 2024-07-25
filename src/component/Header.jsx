@@ -15,7 +15,7 @@ const Header = ({ className = "" }) => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const storeUsername = localStorage.getItem("username");
-    const storeImage = localStorage.getItem("image");
+    const storeImage = localStorage.getItem("Image");
     const storePhone = localStorage.getItem("Phone");
     const storeToken = localStorage.getItem("token");
     if (storeUsername) {

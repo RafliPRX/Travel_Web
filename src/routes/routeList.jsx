@@ -1,4 +1,5 @@
 import Activity_Categorized from "../pages/activisty_categorized";
+import Admin from "../pages/Admin_page_user";
 import Details from "../pages/detail";
 import Details_activity from "../pages/detail_activity";
 import Details_promo from "../pages/detail_promo";
@@ -38,5 +39,9 @@ export const routeList = [
     {
         path: "/Sign-up",
         element: <Sign_up/>
+    },
+    {
+        path: "/Admin",
+        element: <Admin/>
     }
 ]
