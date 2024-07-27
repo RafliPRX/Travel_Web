@@ -21,8 +21,9 @@ import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Sign_up from "../pages/Sign-up";
 import Profile from "../pages/User_profile";
-import ProtectedRoute from "./ProtectedRoute";
+
 import ProtectedRoute_Admin from "./ProtectedRoute_Admin";
+import Protected_Route from "./ProtectedRoute";
 export const routeList = [
     {
         path: "/",
@@ -31,33 +32,33 @@ export const routeList = [
     {
         path: "/detail/:id",
         element: (
-            <ProtectedRoute>
+            <Protected_Route>
                 <Details/>
-            </ProtectedRoute>
+            </Protected_Route>
         ),
     },
     {
         path: "/detail-promo/:id",
         element: (
-            <ProtectedRoute>
+            <Protected_Route>
                 <Details_promo/>
-            </ProtectedRoute>
+            </Protected_Route>
         ),
     },
     {
         path: "/categorized/:id",
         
         element: 
-            <ProtectedRoute> 
+            <Protected_Route> 
                 <Activity_Categorized/>
-            </ProtectedRoute>
+            </Protected_Route>
     },
     {
         path: "/activity-detail/:id",
         element: 
-        <ProtectedRoute>
+        <Protected_Route>
             <Details_activity/>
-        </ProtectedRoute>    
+        </Protected_Route>    
     },
     {
         path: "/explore",
