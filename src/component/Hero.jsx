@@ -8,7 +8,7 @@ const Hero = ({ className = "" }) => {
         <h3 className="the-best-travel">
           The best travel for your journey begins now
         </h3>
-        <div className="journey-intro">
+        <div className="Begining-intro">
           <h1 className="start-your-unforgettable-container2">
             <p className="start-your-unforgettable2">{`Start your unforgettable `}</p>
             <p className="journey-with-us2">journey with us.</p>

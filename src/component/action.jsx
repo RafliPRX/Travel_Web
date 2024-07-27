@@ -1,5 +1,4 @@
 import axios from "axios";
-import "./header.css";
 import PropTypes from "prop-types";
 import Adm_icon from '../assets/device-imac.svg';
 import user_icon from '../assets/users.svg';
@@ -39,7 +38,7 @@ const Action = ({
         <h3>{nama}<br /><span>{Phone}</span></h3>
         <ul>
           <li>
-            <img src={user_icon} /><a href="#">My profile</a>
+            <img src={user_icon} /><a href="/Profile">My profile</a>
           </li>
           <li>
             <img src={Adm_icon} /><a href="/Admin">Admin</a>

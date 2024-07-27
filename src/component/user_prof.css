@@ -1,0 +1,242 @@
+.user-profile {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .user-badge-icon {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .user {
+    width: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0px 20px 6.3px 0px;
+    box-sizing: border-box;
+    gap: 16.2px;
+  }
+  .wrapper-group-16-child {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    transform: scale(1.229);
+  }
+  .wrapper-group-16 {
+    height: 104.6px;
+    width: 105.5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50px;
+  }
+  .input-style {
+    border-radius: 10px;
+    width: 300px;
+  }
+  .alaa-mohamed {
+    text-decoration: none;
+    position: relative;
+    font-weight: 700;
+    color: inherit;
+  }
+  .product-design {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+  }
+  .eastern-european-time {
+    position: relative;
+    font-size: 16px;
+    color: #6b7280;
+  }
+  .name {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .user-info {
+    flex: 1;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8.3px 0px 0px;
+    box-sizing: border-box;
+    min-width: 224px;
+    max-width: 100%;
+    flex-shrink: 0;
+    left: 50px;
+  }
+  .left-panel {
+    width: 466.8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    min-width: 466.8px;
+    max-width: 100%;
+  }
+  .upload-new-photo {
+    position: relative;
+    line-height: 150%;
+  }
+  .upload-photo {
+    border-radius: 8px;
+    background-color: #384d6c;
+    border: 1px solid #384d6c;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 18px;
+    white-space: nowrap;
+  }
+  .delete1 {
+    position: relative;
+    line-height: 150%;
+    display: inline-block;
+    min-width: 49px;
+  }
+  .delete {
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #384d6c;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 62px 16px 63px;
+    color: #384d6c;
+  }
+  .upload-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 56px;
+  }
+  .upload {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 13.3px 0px 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+  }
+  .content {
+    width: 1016.3px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 20px 0px 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-shrink: 0;
+    gap: 20px;
+    text-align: left;
+    font-size: 20px;
+    color: #384d6c;
+    font-family: Montserrat;
+  }
+  .user-status-icons {
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .user-status-icons-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 2px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .ativated-link {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 54.2px;
+    box-sizing: border-box;
+    gap: 54.2px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 24px;
+    color: #384d6c;
+    font-family: Lato;
+  }
+  
+  @media screen and (max-width: 925px) {
+    .left-panel {
+      flex: 1;
+    }
+  
+    .content {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .left-panel {
+      min-width: 100%;
+    }
+  
+    .ativated-link {
+      gap: 27px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .user-profile {
+      font-size: 19px;
+      line-height: 16px;
+    }
+  
+    .alaa-mohamed {
+      font-size: 16px;
+    }
+  
+    .product-design {
+      font-size: 16px;
+    }
+  
+    .left-panel {
+      flex-wrap: wrap;
+    }
+  
+    .upload-actions {
+      flex-wrap: wrap;
+      gap: 28px;
+    }
+  }

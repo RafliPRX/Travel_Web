@@ -1,0 +1,103 @@
+.label2 {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    min-width: 36px;
+  }
+  .input-text2 {
+    align-self: stretch;
+    width: 39px;
+    position: relative;
+    display: none;
+    align-items: center;
+  }
+  .div2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #4200ff;
+  }
+  .cursor2 {
+    height: 19px;
+    width: 2px;
+    position: relative;
+    display: none;
+  }
+  .input-value2 {
+    align-self: stretch;
+    width: 43px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+  }
+  .inside-icon-container2 {
+    height: 16px;
+    width: 16px;
+    position: relative;
+  }
+  .input4 {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #949494;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 12px;
+    gap: 20px;
+  }
+  .outside-icon-container2 {
+    height: 17px;
+    width: 16px;
+    position: relative;
+    object-fit: cover;
+  }
+  .input-icon2 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 16px;
+    color: #cacaca;
+  }
+  .hint-error2 {
+    width: 114px;
+    position: relative;
+    font-size: 11px;
+    color: #595959;
+    display: none;
+  }
+  .base2 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+  }
+  .input3 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+    text-align: left;
+    font-size: 14px;
+    color: #1a1a1a;
+    font-family: Inter;
+  }

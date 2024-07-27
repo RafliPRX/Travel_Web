@@ -2,12 +2,13 @@
 import './cardview.css';
 import './card.css';
 import PropType from 'prop-types'
-const Card_view = ({
+const Card_view_feature = ({
     nama,
     email,
-    role,
+    desc,
     Image,
-    role_func,
+    del,
+    link,
 }) => {
     
     return (
@@ -20,11 +21,11 @@ const Card_view = ({
                    </div>
                    <h1 className='NAME'> {nama}</h1>
                    <p className='DETAIL'>{email} <br/>
-                     {role}</p>
+                     {desc}</p>
                   </div>
-                  <div className="button-wrapper"> 
-                  <button className="btn outline">DELETE</button>
-                    <button onClick={() => role_func()} className="btn fill">ROLE</button>
+                  <div className="button-wrapper">
+                    {del} 
+                    {link}
                   </div>
                     </div>
             </div>
@@ -32,11 +33,12 @@ const Card_view = ({
     )
 }
 
-Card_view.PropType = {
+Card_view_feature.PropType = {
     nama: PropType.string,
     email: PropType.string,
-    role: PropType.string,
+    desc: PropType.string,
     Image: PropType.string,
-    role_func: PropType.func,
+    del: PropType.func,
+    link: PropType.element,
 }
-export default Card_view
+export default Card_view_feature

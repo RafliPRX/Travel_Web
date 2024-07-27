@@ -1,0 +1,103 @@
+.image-icon {
+    height: 216px;
+    width: 216px;
+    position: relative;
+    border-radius: 28px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .headline {
+    text-decoration: none;
+    align-self: stretch;
+    position: relative;
+    line-height: 32px;
+    color: inherit;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+  }
+  .published-date {
+    align-self: stretch;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #49454f;
+  }
+  .lorem-ipsum-dolor {
+    margin: 0;
+  }
+  .blank-line {
+    margin: 0;
+  }
+  .duis-aute-irure {
+    justify-content: center;
+    margin: 0;
+    color: #1d1b20;
+  }
+  .supporting-text {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+  }
+  .headline-supporting-text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .text-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 344px;
+    max-width: 100%;
+  }
+  .Header2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 24px;
+    box-sizing: border-box;
+    gap: 24px;
+    max-width: 50%;
+    text-align: left;
+    font-size: 24px;
+    color: #1d1b20;
+    font-family: Roboto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media screen and (max-width: 675px) {
+    .image-icon {
+      flex: 1;
+    }
+  
+    .header {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .headline {
+      font-size: 19px;
+      line-height: 26px;
+    }
+  
+    .text-column {
+      min-width: 100%;
+    }
+  }
