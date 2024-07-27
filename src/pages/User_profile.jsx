@@ -24,10 +24,6 @@ useEffect(() => {
         <>
         <HeroSection/> <br />
             <User_component nama={nama} pic={image} email={email} role={Phone}/>
-            <form className="form-container" action="">
-                <label className="" htmlFor="">Username</label>
-                <input className="input-style" type="text" name="" id="" />
-            </form>
         </>
     )
 }

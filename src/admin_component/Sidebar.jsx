@@ -28,9 +28,8 @@ const Sidebar = () => {
                 <img src={image} alt="" />
 			</div>
 			<figcaption>
-				{username}
+					{username}
 			</figcaption>
-			
 		</figure>
 		<a style={{ marginLeft: '47px', backgroundColor: 'blue', color: 'white', padding: '5px', borderRadius: '5px', textDecoration: 'none' }} href="/">
 			Back to User Page

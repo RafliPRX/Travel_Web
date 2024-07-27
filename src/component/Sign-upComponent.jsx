@@ -13,6 +13,7 @@ const Sign_upComponent = ({ className = "" }) => {
   const [Password, setPassword] = useState("");
   const [rePassword, setrePassword] = useState("");
   const [Phone, setPhone] = useState("");
+  const [image, setImage] = useState("");
   const navigate = useNavigate();
   const handleChangeEmail = (event) => {
     console.log(event.target.value);
@@ -38,6 +39,11 @@ const Sign_upComponent = ({ className = "" }) => {
     console.log(event.target.value);
     setName(event.target.value);
   }
+  const handleChangeImage = (event) => {
+    console.log(event.target.value);
+    setImage(event.target.value);
+  }
+
 
   const handleSign_up = async (event) => {
     event.preventDefault();
@@ -47,7 +53,8 @@ const Sign_upComponent = ({ className = "" }) => {
       password: Password,
       passwordRepeat: rePassword,
       role: "user",
-      phoneNumber: Phone
+      phoneNumber: Phone,
+      profilePictureUrl: image
     };
     try {
       const response = await axios.post(`https://travel-journal-api-bootcamp.do.dibimbing.id/api/v1/register`, payload, {
@@ -85,7 +92,7 @@ const Sign_upComponent = ({ className = "" }) => {
       <div className="credentials">
         <Sign_upComponent2
           onChange={handleChangeEmail}
-          enterYourUsernameOrEmailA="Enter your username or email address"
+          enterYourUsernameOrEmailA="Enter your email address"
           usernameOrEmailAddress=""
         />
         <div className="contact-info">
@@ -104,6 +111,11 @@ const Sign_upComponent = ({ className = "" }) => {
         <Sign_upComponent2
           onChange={handleChangerePassword}
           enterYourUsernameOrEmailA="Enter your Password Again"
+          usernameOrEmailAddress=""
+        />
+        <Sign_upComponent2
+          onChange={handleChangeImage}
+          enterYourUsernameOrEmailA="Enter your Profile Image"
           usernameOrEmailAddress=""
         />
 

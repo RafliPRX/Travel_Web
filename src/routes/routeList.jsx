@@ -1,3 +1,4 @@
+import { Profiler } from "react";
 import Activity_Categorized from "../pages/activisty_categorized";
 import Admin_activ from "../pages/Admin_page_activity";
 import Admin_banner from "../pages/Admin_page_banner";
@@ -20,6 +21,8 @@ import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Sign_up from "../pages/Sign-up";
 import Profile from "../pages/User_profile";
+import ProtectedRoute from "./ProtectedRoute";
+import ProtectedRouteAdmin from "./ProtectedRoute_Admin";
 export const routeList = [
     {
         path: "/",
@@ -27,19 +30,34 @@ export const routeList = [
     },
     {
         path: "/detail/:id",
-        element: <Details/>
+        element: (
+            <ProtectedRoute>
+                <Details/>
+            </ProtectedRoute>
+        ),
     },
     {
         path: "/detail-promo/:id",
-        element: <Details_promo/>
+        element: (
+            <ProtectedRoute>
+                <Details_promo/>
+            </ProtectedRoute>
+        ),
     },
     {
         path: "/categorized/:id",
-        element: <Activity_Categorized/>
+        
+        element: 
+            <ProtectedRoute> 
+                <Activity_Categorized/>
+            </ProtectedRoute>
     },
     {
         path: "/activity-detail/:id",
-        element: <Details_activity/>
+        element: 
+            <ProtectedRoute>
+                <Details_activity/>
+            </ProtectedRoute>    
     },
     {
         path: "/explore",
@@ -55,7 +73,10 @@ export const routeList = [
     },
     {
         path: "/Admin",
-        element: <Admin/>
+        element: 
+            <ProtectedRouteAdmin>
+                <Admin/>
+            </ProtectedRouteAdmin>
     },
     {
         path: "/Admin_banner",

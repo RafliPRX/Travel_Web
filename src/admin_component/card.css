@@ -38,14 +38,14 @@
     border: 1px solid rgba(255,255,255, 0.255)
   }
   
-  h1{
+  .NAME{
     font-family: 'Righteous', sans-serif;
     color: rgba(255,255,255,0.98);
     text-transform: uppercase;
     font-size: 2.4rem;
   }
   
-  p {
+  .DETAIL {
     color: #fff;
     font-family: 'Lato', sans-serif;
     text-align: center;

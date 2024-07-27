@@ -42,6 +42,7 @@ const GroupComponent = ({ className = "" }) => {
         localStorage.setItem("Phone", response.data.data.phoneNumber);
         localStorage.setItem("Image", response.data.data.profilePictureUrl);
         localStorage.setItem("email", response.data.data.email);
+        localStorage.setItem("role", response.data.data.role);
         setTimeout(() => {
             navigate("/");
         }, 1000);

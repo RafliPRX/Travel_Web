@@ -1,10 +1,11 @@
 .the-interior-has-a-armchair-on-icon {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 100%;
-    height: auto;  
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;  
 }
   .your-logo {
     text-decoration: none;
