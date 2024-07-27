@@ -1,5 +1,5 @@
 import { Navigate, Outlet } from "react-router-dom";
-const ProtectedRouteAdmin = ({ children }) => {
+const ProtectedRoute_Admin = ({ children }) => {
   const role = localStorage.getItem("role");
   if (role != "admin") {
     return <Navigate to={"/"} />;
@@ -8,4 +8,4 @@ const ProtectedRouteAdmin = ({ children }) => {
   return <>{children || <Outlet />}</>;
 };
 
-export default ProtectedRouteAdmin;
+export default ProtectedRoute_Admin;

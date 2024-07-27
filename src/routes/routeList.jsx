@@ -22,7 +22,7 @@ import Login from "../pages/Login";
 import Sign_up from "../pages/Sign-up";
 import Profile from "../pages/User_profile";
 import ProtectedRoute from "./ProtectedRoute";
-import ProtectedRouteAdmin from "./ProtectedRoute_Admin";
+import ProtectedRoute_Admin from "./ProtectedRoute_Admin";
 export const routeList = [
     {
         path: "/",
@@ -55,9 +55,9 @@ export const routeList = [
     {
         path: "/activity-detail/:id",
         element: 
-            <ProtectedRoute>
-                <Details_activity/>
-            </ProtectedRoute>    
+        <ProtectedRoute>
+            <Details_activity/>
+        </ProtectedRoute>    
     },
     {
         path: "/explore",
@@ -73,10 +73,10 @@ export const routeList = [
     },
     {
         path: "/Admin",
-        element: 
-            <ProtectedRouteAdmin>
-                <Admin/>
-            </ProtectedRouteAdmin>
+        element:
+        <ProtectedRoute_Admin>
+            <Admin/>
+        </ProtectedRoute_Admin>
     },
     {
         path: "/Admin_banner",

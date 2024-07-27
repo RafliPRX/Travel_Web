@@ -3,9 +3,9 @@ import "./card.css";
 
 const Card = ({ className = "", image, date, title }) => {
   return (
-    <div className={`card-01 ${className}`}>
-      <img className="image-icon" loading="lazy" alt="" src={image} />
-      <div className="content">
+    <div className={`Card-01 ${className}`}>
+      <img className="Image-icon" loading="lazy" alt="" src={image} />
+      <div className="Content">
         <div className="title">{title}</div>
         <div className="date">{date}</div>
       </div>
