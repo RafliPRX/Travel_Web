@@ -3,6 +3,7 @@ import "./header.css";
 import { useEffect, useState } from "react";
 import Action from "./action";
 import Action2 from "./action2";
+import logo_icon from "../assets/9342520_4136593.svg";
 
 const Header = ({ className = "" }) => {
   // eslint-disable-next-line no-unused-vars
@@ -30,7 +31,7 @@ const Header = ({ className = "" }) => {
   return (
     <div className={`header ${className}`}>
       <div className="logo-wrapper">
-        <img className="logo-icon" loading="lazy" alt="" src="/logo.svg" />
+        <img className="logo-icon" loading="lazy" alt="" src={logo_icon} />
       </div>
       <div className="nav-options-wrapper">
         <div className="nav-options">

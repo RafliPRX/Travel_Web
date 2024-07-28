@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import PropTypes from "prop-types";
 import "./footer.css";
+import logo_icon from "../assets/9342520_4136593.svg";
 
 const Footer = ({ className = "" }) => {
   return (
@@ -13,7 +14,7 @@ const Footer = ({ className = "" }) => {
                 className="logo-icon-footer"
                 loading="lazy"
                 alt=""
-                src="/logo.svg"
+                src={logo_icon}
               />
             </div>
             <div className="copyright-travellian">
