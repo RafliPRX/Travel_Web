@@ -28,7 +28,7 @@ const Admin_category = () => {
     };
     const del_Category = async (id) => {
         try {
-            const response = await axios.delete(`https://travel-journal-api-bootcamp.do.dibimbing.id/api/v1/delete-banner/${id}`, {
+            const response = await axios.delete(`https://travel-journal-api-bootcamp.do.dibimbing.id/api/v1/delete-category/${id}`, {
                 headers: {
                     apiKey: '24405e01-fbc1-45a5-9f5a-be13afcd757c',
                     "content-type": "application/json",
