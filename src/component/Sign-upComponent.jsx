@@ -94,6 +94,7 @@ const Sign_upComponent = ({ className = "" }) => {
           onChange={handleChangeEmail}
           enterYourUsernameOrEmailA="Enter your email address"
           usernameOrEmailAddress=""
+          type={"text"}
         />
         <div className="contact-info">
           <Sign_upComponent1 onChange={handleChangeName} userName="User name" userName1="" />
@@ -107,16 +108,19 @@ const Sign_upComponent = ({ className = "" }) => {
           onChange={handleChangePassword}
           enterYourUsernameOrEmailA="Enter your Password"
           usernameOrEmailAddress=""
+          type={"password"}
         />
         <Sign_upComponent2
           onChange={handleChangerePassword}
           enterYourUsernameOrEmailA="Enter your Password Again"
           usernameOrEmailAddress=""
+          type={"password"}
         />
         <Sign_upComponent2
           onChange={handleChangeImage}
           enterYourUsernameOrEmailA="Enter your Profile Image"
           usernameOrEmailAddress=""
+          type={"text"}
         />
 
       </div>
