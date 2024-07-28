@@ -23,7 +23,7 @@ import Sign_up from "../pages/Sign-up";
 import Profile from "../pages/User_profile";
 
 import ProtectedRoute_Admin from "./ProtectedRoute_Admin";
-import Protected_Route from "./ProtectedRoute";
+import Routed_Protected from "./RoutedProtected";
 export const routeList = [
     {
         path: "/",
@@ -32,33 +32,33 @@ export const routeList = [
     {
         path: "/detail/:id",
         element: (
-            <Protected_Route>
+            <Routed_Protected>
                 <Details/>
-            </Protected_Route>
+            </Routed_Protected>
         ),
     },
     {
         path: "/detail-promo/:id",
         element: (
-            <Protected_Route>
+            <Routed_Protected>
                 <Details_promo/>
-            </Protected_Route>
+            </Routed_Protected>
         ),
     },
     {
         path: "/categorized/:id",
         
         element: 
-            <Protected_Route> 
+            <Routed_Protected> 
                 <Activity_Categorized/>
-            </Protected_Route>
+            </Routed_Protected>
     },
     {
         path: "/activity-detail/:id",
         element: 
-        <Protected_Route>
-            <Details_activity/>
-        </Protected_Route>    
+            <Routed_Protected>
+                <Details_activity/>
+            </Routed_Protected>    
     },
     {
         path: "/explore",
